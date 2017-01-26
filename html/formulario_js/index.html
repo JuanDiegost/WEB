@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<form class="formulario"action="" id="formulario" name="formulario">
+		<div class="contenedor">
+			<input type="text" name="nombre" placeholder="nombre" placeholder="Nombre">
+			<input type="email" name="correo" placeholder="correo" placeholder="Correo">
+			<div class="sexo">
+				<input type="radio" name="sexo" id="hombre" value="hombre">
+				<label for="hombre" class="label-radio hombre">Hombre</label>
+
+				<input type="radio" name="sexo" id="mujer" value="mujer">
+				<label for="mujer" class="label-radio mujer">Mujer</label>
+			</div>
+			<div class="terminos">
+				<input type="checkbox" name="terminos" id="terminos" >
+				<label for="terminos">Acepto Terminos y Condiciones</label>			
+			</div>
+			<ul class="error" id="error">
+			</ul>
+			<input type="submit" class="btn" value="Registarse">
+		</div>
+	</form>
+	<script src="js/vendor.js"></script>
+</body>
+</html>

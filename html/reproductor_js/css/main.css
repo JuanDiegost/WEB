@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #e9f1f7;
+	font-family: Arial,sans-serif;
+	font-size: 18px;
+}
+
+.contenedor{
+	background: #000;
+	width: 80%;
+	margin: 40px auto;
+}
+
+.contenedor .reproductor {
+	position: relative;
+}
+
+.contenedor .reproductor .video {
+	width: 100%;
+	vertical-align: top;
+	z-index: 90;
+}
+
+.contenedor .controles{
+	opacity: 0;
+	-webkit-transition: all .5;
+	-o-transition: all .5;
+	transition: all .5;
+}
+
+.contenedor .reproductor:hover  .controles{
+	opacity: 1;
+}
+
+/*Estilos slider*/
+
+.reproductor input[type="range"] {
+	background: transparent;
+	-webkit-appearance: none;
+	-moz-appearance:none ;
+	appearance: none;
+	background-color: #6a7882;
+}
+
+.reproductor input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	-moz-appearance:none ;
+	appearance: none;
+	background-color: #6a7882;
+}
+
+.reproductor input[type="range"]:focus {
+	outline: none;
+}
+
+.reproductor input[type="range"]::-moz-range-thumb {
+	background-color: rgba(0,0,0,.5);
+	width: 8px;
+	cursor: pointer;
+	border:none;
+	border: 2px solid #ccc;
+	border-radius: 100%;
+}
+
+.reproductor input[type="range"]::-moz-range-thumb:hover {
+	background-color: #ccc;
+}
+
+.reproductor input[type="range"]::-moz-range-thumb:active {
+	background-color: #ccc;
+}
+
+.reproductor input[type="range"]::-webkit-slider-thumb {
+	background-color: rgba(0,0,0,.5);
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	border:none;
+	border: 2px solid #ccc;
+	border-radius: 100%;
+}
+
+.reproductor input[type="range"]::-webkit-slider-thumb:hover {
+	background-color: #ccc;
+}
+
+.reproductor input[type="range"]::-webkit-slider-thumb:active {
+	background-color: #ccc;
+}
+
+.reproductor input[type="range"]::-moz-range-track {
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	height: 12px;	
+}
+
+.reproductor input[type="range"]::-webkit-slider-runnable-track {
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	height: 12px;	
+}
+
+.contenedor .tiempo{
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	background-color: #000;
+	bottom: -10px;
+}
+
+.contenedor .btn{
+	position: absolute;
+}
+
+.contenedor .play{
+	bottom: 25px;
+	left: 25px;
+	background-color: rgba(0,0,0,.5);
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.contenedor .btn {
+	color: #fff;
+	position: relative;
+}
+
+.contenedor .play:hover{
+	background-color: rgba(0,0,0,.8);
+}
+
+.contenedor .volumen {
+	position: absolute;
+	width: 100px;
+	bottom: 25px;
+	right: 20px;
+}
+
+.contenedor .full-scream {
+	position: absolute;
+	right: 20px;
+	bottom: 50px;
+	background-color: rgba(0,0,0,.5);
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	cursor: pointer;
+}

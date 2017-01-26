@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button"class="btn btn-primary" data-toggle="modal" data-target="#ventana">
+					Abrir ventana
+				</button>
+				<div class="modal fade" id="ventana" tab-index="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+								<h4 class="modal-title">Titulo de la ventana</h4>
+							</div>
+							<div class="modal-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio vero sint quia commodi aut in eum rem placeat ipsa!</p>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-primary active">Lorem</button>
+								<button class="btn btn-primary">Lorem</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #f2f2f2;
+	font-family: Arial,sans-serif;
+	font-size: 18px;
+}
+
+.contenedor{
+	width: 400px;
+	margin: 40px auto;
+}
+
+.formulario .contenedor{
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 6px 6px 0 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"] {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border:none;
+	border-bottom: 2px solid #ccc;
+	font-family: Arial,sans-serif;
+	font-size: 18px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus{
+	border-bottom:3px solid #246eb9;
+}
+
+.formulario input[type="radio"]{
+	display: none;
+}
+
+.formulario .sexo {
+	display: flex;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+}
+
+.formulario .label-radio{
+	background-color: rgba(249,160,63,.4);
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 49.5%;
+	cursor: pointer;
+}
+
+.formulario input[type="radio"]:checked + .label-radio{
+	background-color: #f9a03f;
+} 
+
+.formulario .terminos{
+	margin: 20px 0; 
+	text-align: center;
+	color: #424242;
+}
+
+.formulario .terminos label{
+	margin-left: 10px;
+}
+
+.formulario .error{
+	display: none;
+	margin-top: 20px;
+	border-radius: 3px;
+	background-color: #ce1818;
+	color: #fff;
+	padding: 15px 10px;
+	padding-left: 40px;
+}
+
+.formulario .btn{
+	width: 100%;
+	text-align: center;
+	background-color: #246eb9;
+	color: #fff;
+	border: none;
+	display: block;
+	padding:15px 10px;
+	cursor: pointer; 
+	border-radius: 0 0 6px 6px;
+	font-family: Arial,sans-serif;
+	font-size: 18px;
+}
+
+.formulario .btn:hover{
+	background-color: #323321;
+}

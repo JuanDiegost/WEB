@@ -1,0 +1,91 @@
+html{
+	font-family: 'Bungee', cursive;
+	font-size: 110%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.main-header{
+	text-align: center;
+	background-color: #16210b;
+	color: white;
+	padding: 3em;
+}
+
+.main-header h1{
+	margin: 0;
+}
+
+.main-header h2{
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.loader{
+	text-align: center;
+}
+
+.card{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	background-size:cover;
+	color: white;
+	padding: .4em;
+}
+
+	.card__title{
+		margin: 0;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	.card__date{
+		font-size: .7rem;
+		margin: 0;
+		text-align: center;
+	}
+
+	@media all and (min-width: 28em){
+		.card{
+			background-position: center;
+		}
+	}	
+	
+	.card__info{
+		position: absolute;
+		bottom: .4em;
+		left:.4em; 
+		text-align: center;
+	}
+
+	.card__image{
+		display: block;
+		text-align: center;
+	}
+
+	.card__temp{
+		display: block;
+		font-size: 3rem;
+		line-height: 1;
+		color: white;
+	}
+
+	.card__max{
+		color: red;
+	}
+
+	.card__min{
+		color: green;
+	}
+
+	.min__maxt::before{
+		content: "Max: ";
+	}
+
+	.min__mint::before{
+		content: "Min: ";
+	}

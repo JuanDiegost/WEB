@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="viewport" content="width=divice-width. initial-scale=1.0"> 
+		<title>Wather</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	</head>
+	<body>
+		<header class="main-header">
+			<h1>Platzi Wather</h1>
+			<h2>An aweome way to see how we burn</h2>
+		</header>
+
+		<div class="loader">Geolocalizando tu posición por favor espere</div>
+		<form action="" class="search">
+			<input type="text" data-input="cityAdd"class="search__text" placeholder="Agrega una nueva ciudad">
+			<input type="submit" data-btn="add" class="search__btn btn" value="Añadir una nueva ciudad">
+
+		</form>
+		<main class="cards-grup">
+			<template id="template--city">
+				<div class="card">
+					<header class="card__header">
+						<h3 data-city class="card__title"></h3>
+						<h4 data-time class="card__date"></h4>
+					</header>
+					<div class="card__info">
+						<img data-icon src="" alt="" class="card__image">
+						<span data-temp="max" class="card__max"></span>
+						<span data-temp="min" class="card__min"></span>
+						<span data-temp="current"class="card__temp"></span>
+					</div>
+				</div>	
+			</template>
+		</main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

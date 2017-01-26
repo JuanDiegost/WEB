@@ -1,0 +1,34 @@
+.head {
+	background-color: #452745;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.main {
+	background-color: #f2f2f2;
+	margin-bottom: 20px;
+}
+
+aside {
+	background-color: #ff5f49;
+	color: #fff;
+}
+
+.widgets {
+	margin-bottom: 20px;
+}
+
+.widget {
+	background-color: #f2f2f2;
+}
+
+.color {
+	background-color: #d2d2d2;
+}
+
+footer {
+	background-color: #452745;
+	color: #fff;
+	text-align: center;
+}

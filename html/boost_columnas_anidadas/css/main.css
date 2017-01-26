@@ -1,0 +1,17 @@
+.columnas {
+	background-color: #452745;
+	color: #fff;
+}
+
+.numero {
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.caja {
+	background-color: #ff5f49;
+	color: #fff;
+	margin: 20px 0;
+}

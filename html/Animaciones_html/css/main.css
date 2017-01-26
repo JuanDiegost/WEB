@@ -1,0 +1,24 @@
+@keyframes colores {
+	/*from {background-color:#9eb3c2; }
+	to {background-color: #21295c}*/
+	0% {background-color:#9eb3c2; }
+	25% {background-color:#1c7293; width: 300px;}
+	50% {background-color:#065a82; width: 400px;}
+	75% {background-color:#1b3b6f; width: 300px;}
+	100% {background-color:#9eb3c2; width: 200px;}
+}
+
+.caja {
+	height: 200px;
+	width: 200px;
+	background-color: #9eb3c2;
+	-webkit-animation-name: colores;
+	-o-animation-name: colores;
+	animation-name: colores;
+	-webkit-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}

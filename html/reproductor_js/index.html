@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproductor</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="reproductor">
+			<video id="video"class="video "src="media/intro.mp4"><p>Tu navegador no soporta videos en HTML5.</p></video>
+			<div class="controles">
+				<input type="range" class="tiempo" id ="tiempo" min="0" value="0" >
+				<button class="btn play" id="btn-play">pause</button>
+				<input type="range" class="volumen" id ="volumen" min="0" max="1" step="0.01" value="0.5">
+				<button class="full-scream btn" id="full-scream">][</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/vendor.js"></script>
+</body>
+</html>
