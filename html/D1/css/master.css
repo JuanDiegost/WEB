@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial,sans-serif,Helvetica;
+  font-size: 16px;
+}
+
+.nav {
+  background-color: #273B47;
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+  .nav .logo {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    float: right;
+  }
+
+    .nav ul li{
+      display: inline-block;
+    }
+      .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0 0.7em;
+        border-right: 1px solid #fff;
+      }
+
+      .nav ul li a:hover {
+        border-top: 3px solid #7DCD40;
+      }
+
+      .nav .login {
+        background-color: #FF4842;
+        border-radius: 0.5em;
+        padding: .5em .2em;
+        border-right: none;
+        margin: 0 0.7em;
+      }
+
+      .nav .login:hover {
+        border-top: none;
+      }
+.container{
+  max-width: 1300px;
+  margin: 20px auto;
+}
+.header {
+  width: 100%;
+  background-color: #EFEFEF;
+}
+  .header .search {
+    margin-top: 1em;
+    display: inline-block;
+    text-align: right;
+    width: 74%;
+  }
+
+  .header .search form input {
+    padding: .7em 1em;
+    border-radius: 5px;
+    border: 1px solid #000;
+  }
+
+  .header .figure {
+    width: 100%;
+  }
+
+    .header .figure img {
+      width: 100%;
+    }
+.inline-block {
+  display: inline-block;
+}
+section{
+  margin: 0 auto;
+  width: 100%;
+
+}
+.post {
+  text-align: left;
+}
+
+  .post .title {
+    border-bottom: 2px solid #EFEFEF;
+    margin: 0 40px;
+  }
+  .post .date{
+    text-align: right;
+    margin-right: 40px;
+  }
+  .post figure {
+    width: 100%;
+  }
+.title,.author {
+  margin-left: 40px;
+}
+
+.author,.date{
+  font-size: .7rem;
+  color: #7E7E7E;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+footer{
+  text-align: center;
+}
+footer ul li a{
+  background-color: #EAEAEA;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+}
+
+footer ul li .select {
+  background-color: transparent;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+@media screen and (max-width: 800px) {
+	.post {
+    width: 100%;
+  }
+  .post figure{
+    width: 100%;
+  }
+
+  .post figure img{
+    width: 90%;
+  }
+	}
+@media screen and (min-width:900px) {
+  .post {
+    width: 50%;
+  }
+  .post figure{
+    width: 100%;
+  }
+
+  .post figure img{
+    width: 90%;
+  }
+}
+
+.post {
+  width: 30%;
+}
+.post figure{
+  width: 100%;
+}
+
+.post figure img{
+  width: 90%;
+}
